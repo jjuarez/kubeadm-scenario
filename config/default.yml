@@ -1,12 +1,12 @@
 ---
 master:
   hostname: kubemaster
-  box: 'ubuntu/xenial64'
+  box: 'debian/stretch64'
   ip: '192.168.33.2'
 nodes:
   - hostname: kubenode1
-    box: 'ubuntu/xenial64'
+    box: 'debian/stretch64'
     ip: '192.168.33.3'
   - hostname: kubenode2
-    box: 'ubuntu/xenial64'
+    box: 'debian/stretch64'
     ip: '192.168.33.4'
